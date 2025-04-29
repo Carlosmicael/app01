@@ -1,0 +1,39 @@
+1.Se pueden Usar Contraseñas para restringir el acceso a todo o parte de Cisco ios.Selleciona los modos e interfaces que se pueden protejer con contraseñas.
+  interfaz vty//respuesta
+  interfaz de consola//respuesta
+  modo del arranque de ios
+  modo exec previligiado//respuesta
+  modo de configuracion de router
+  interfaz de ethernet
+
+2.que comandos se utiliza para verificar el estado de interfaces del switch,incluido el estado de las interfaces y una direccion ip configurada 
+
+  ping 
+  show ip interface brief //respuesta
+  ipconfig
+  traceroute
+
+
+3.cual de estas interfaces permite la administracion remota de un switch de capa 2
+  la interfas auxiliar
+  la interfas de puerto de consola
+  la interfas virtual del switch // respuesta
+  la interfas del puerto de ethernet
+
+
+4.una la descripcion con el modo de ios relacionado (no se utilizan todas las opciones)
+Modo exec del usuario
+-es la primera entrada a la CLi de un dispositivo ios
+-la cantiadad de comandos de control basico es limitada
+
+
+modo exec previligiado
+-se accede mediante la introduccion del comando enable 
+-se identifica con una peticion de entrada que termina con el caracter #
+
+
+modo de configuracion global
+-los cambios que se realizan afectan el funcionamiento global del dispositivo 
+-se accede mediante la introduccion dle comando configure terminal
+
+

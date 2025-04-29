@@ -1,0 +1,40 @@
+[
+    {
+      "pregunta": "Se pueden Usar Contraseñas para restringir el acceso a todo o parte de Cisco ios. Selecciona los modos e interfaces que se pueden proteger con contraseñas.",
+      "respuestas": [
+        "interfaz vty",
+        "interfaz de consola",
+        "modo del arranque de ios",
+        "modo exec privilegiado",
+        "modo de configuración de router",
+        "interfaz de ethernet"
+      ]
+    },
+    {
+      "pregunta": "¿Qué comando se utiliza para verificar el estado de interfaces del switch, incluido el estado de las interfaces y una dirección IP configurada?",
+      "respuestas": [
+        "ping",
+        "show ip interface brief",
+        "ipconfig",
+        "traceroute"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de estas interfaces permite la administración remota de un switch de capa 2?",
+      "respuestas": [
+        "la interfaz auxiliar",
+        "la interfaz de puerto de consola",
+        "la interfaz virtual del switch",
+        "la interfaz del puerto de ethernet"
+      ]
+    },
+    {
+      "pregunta": "Una la descripción con el modo de ios relacionado (no se utilizan todas las opciones)",
+      "respuestas": [
+        "Modo exec del usuario - es la primera entrada a la CLI de un dispositivo ios - la cantidad de comandos de control básico es limitada",
+        "modo exec privilegiado - se accede mediante la introducción del comando enable - se identifica con una petición de entrada que termina con el carácter #",
+        "modo de configuración global - los cambios que se realizan afectan el funcionamiento global del dispositivo - se accede mediante el comando configure terminal"
+      ]
+    }
+  ]
+  
