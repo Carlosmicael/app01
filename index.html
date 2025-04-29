@@ -2,20 +2,26 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Tabla con jQuery y DataTables</title>
-  <link rel="stylesheet" href="/dataTables.dataTables.min.css" />
+  <title>Botón flotante - Portapapeles</title>
+  <script type="module" src="/src/main.js"></script> <!-- ojo: /src -->
+  <style>
+    #botonFlotante {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: grab;
+      z-index: 9999;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      user-select: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Tabla con jQuery y DataTables</h1>
-  <table id="tabla-ejemplo" class="display">
-    <thead>
-      <tr><th>Nombre</th><th>Edad</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Ana</td><td>21</td></tr>
-      <tr><td>Luis</td><td>22</td></tr>
-    </tbody>
-  </table>
-  <script type="module" src="src/main.js"></script>
+  <button id="botonFlotante">📋 Procesar</button>
 </body>
 </html>
